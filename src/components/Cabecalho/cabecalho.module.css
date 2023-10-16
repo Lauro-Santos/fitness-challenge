@@ -63,7 +63,7 @@
 
   .banner::before {
     content: "";
-    height: 110%;
+    height: 110vh;
     width: 45vw;
     position: absolute;
     background-image: url(./PNG.png);
