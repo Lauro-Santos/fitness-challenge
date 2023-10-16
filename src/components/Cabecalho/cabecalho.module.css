@@ -64,7 +64,7 @@
   .banner::before {
     content: "";
     height: 110%;
-    width: 600px;
+    width: 45vw;
     position: absolute;
     background-image: url(./PNG.png);
     background-size: contain;
