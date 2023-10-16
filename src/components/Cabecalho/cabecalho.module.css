@@ -18,12 +18,13 @@
 .banner::before {
   content: "";
   height: 80vh;
-  width: 60vw;
+  width: 100vw;
   position: absolute;
   background-image: url(./PNG.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  bottom: -8vh;
+  background-position: 70px 50%;
+  top: 0;
   right: 0;
   transform: -50%;
 }

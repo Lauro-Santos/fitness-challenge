@@ -13,8 +13,6 @@ const InfoBox = ({ title, content }) => {
     <div className={style.box}>
       <button className={style.botao} onClick={handleClick}>
         <svg
-          width="16"
-          height="23"
           viewBox="0 0 16 23"
           fill="none"
         >
