@@ -1,0 +1,50 @@
+.rodape {
+  background: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.descricao {
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  padding: 40px 17px;
+}
+
+.logo {
+    width: 250px;
+}
+
+.autores {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.autores p {
+    color: #fff;
+    font-weight: 700;
+}
+
+.autores img {
+    width: 15px;
+}
+
+@media (min-width: 768px) {
+    .rodape {
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .descricao {
+        text-align: start;
+        width: 40%;
+      }
+      .autores {
+        margin-bottom: 0;
+    }
+}
