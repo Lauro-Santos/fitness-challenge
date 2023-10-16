@@ -14,7 +14,7 @@ export default function Cabecalho() {
           alt="Logo do Fitness Challenge"
         />
         <h2 className={style.titulo}>
-          Foco, performace e <span>disciplina</span>
+          Foco,<br></br> performace e <br></br><span>disciplina</span>
         </h2>
         <p className={style.descricao}>
           Alcance seus objetivos de forma eficaz e divertida com nosso programa
