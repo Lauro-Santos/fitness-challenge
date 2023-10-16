@@ -1,6 +1,6 @@
 import InfoBox from "./CaixaSelecao";
 import style from "./perguntas.module.css";
-import imagem from "./background.png";
+import imagem from "./background_faixas.png";
 
 export default function Perguntas() {
   return (
