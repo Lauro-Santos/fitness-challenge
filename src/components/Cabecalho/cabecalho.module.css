@@ -63,13 +63,13 @@
 
   .banner::before {
     content: "";
-    height: 110vh;
+    height: 100vh;
     width: 45vw;
     position: absolute;
     background-image: url(./PNG.png);
     background-size: contain;
     background-repeat: no-repeat;
-    top: 20vh;
+    bottom: -30vh;
     right: 10%;
     transform: -50%;
   }
